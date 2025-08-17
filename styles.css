@@ -1,0 +1,50 @@
+/* CSS */
+* {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  
+}
+
+.card {
+  background: #c7bdbd;
+  border: 1px solid rgba(99, 12, 16, 0.8);
+  border-radius: 12px;
+  padding: 16px 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  max-width: 420px;
+  margin-bottom: 20px; 
+}
+
+/* optional: subtle hover lift */
+.card:hover {
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+}
+  
+  .card-title {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  color: #0e0f11;
+}
+
+.card-text {
+  margin: 10px;
+  color: #0c0d0f;
+  line-height: 1.55;
+}
+
+.card-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card-btn:hover {
+  background: #1d4ed8;
+}
